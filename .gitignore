@@ -24,3 +24,7 @@ service_account.json
 .DS_Store
 .idea/
 .vscode/
+# Игнорировать приватные данные
+**/google_creds/
+**/allowed_users.json
+**/.env
