@@ -1,0 +1,26 @@
+# Python cache / compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Local configs / secrets
+.env
+*.env
+*.env.*
+
+# Google creds
+*.json
+credentials.json
+service_account.json
+
+# OS / editor trash
+.DS_Store
+.idea/
+.vscode/
